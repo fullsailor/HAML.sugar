@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <language id="im.andrew.Sugar.HAML">  
+    <root-zone>styling.css</root-zone>    
+      <name>HAML</name>      
+      <detectors>
+        <extension casesensitive="false">haml</extension>
+      </detectors>
+    </language>    <meta>
+    <name>HAML Lang</name>
+    <description>Adds HAML syntax highlighting.</description>
+    <author>Andrew Smith</author>
+    <identifier>im.andrew.Sugar.HAML</identifier>
+    <version status="preview">0</version>
+    <download format="git">git://github.com/fullsailor/HAML.sugar.git</download>
+    <url>http://github.com/fullsailor/HAML.sugar</url>
+    <dependencies>
+      <dependency id="name.elliottcable.Sugar.Ruby">Ruby</dependency>
+    </dependencies>
+  </meta>
+</settings> 
